@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e799f314.chunk.css",
+    "main.js": "/static/js/main.541a6efe.chunk.js",
+    "main.js.map": "/static/js/main.541a6efe.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3bb03058.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3bb03058.js.map",
+    "static/js/2.10c3d2fe.chunk.js": "/static/js/2.10c3d2fe.chunk.js",
+    "static/js/2.10c3d2fe.chunk.js.map": "/static/js/2.10c3d2fe.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.5d8799aebf2abec816810a5ce59f46e5.js": "/precache-manifest.5d8799aebf2abec816810a5ce59f46e5.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.e799f314.chunk.css.map": "/static/css/main.e799f314.chunk.css.map",
+    "static/js/2.10c3d2fe.chunk.js.LICENSE.txt": "/static/js/2.10c3d2fe.chunk.js.LICENSE.txt",
+    "static/media/back-end.png": "/static/media/back-end.51c30c24.png",
+    "static/media/cloud.png": "/static/media/cloud.aacf18cf.png",
+    "static/media/database.png": "/static/media/database.7178db97.png",
+    "static/media/ecomm.jpg": "/static/media/ecomm.f3b99ed2.jpg",
+    "static/media/front-end.png": "/static/media/front-end.09b808ba.png",
+    "static/media/java-icon.png": "/static/media/java-icon.d6a10193.png",
+    "static/media/java.png": "/static/media/java.23e5ec17.png",
+    "static/media/node.png": "/static/media/node.36700bee.png",
+    "static/media/python.png": "/static/media/python.4243b26a.png",
+    "static/media/react-img.png": "/static/media/react-img.cd7bb6be.png",
+    "static/media/todo.jpg": "/static/media/todo.41aa4c49.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3bb03058.js",
+    "static/js/2.10c3d2fe.chunk.js",
+    "static/css/main.e799f314.chunk.css",
+    "static/js/main.541a6efe.chunk.js"
+  ]
+}
