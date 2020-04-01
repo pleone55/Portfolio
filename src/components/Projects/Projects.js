@@ -19,7 +19,7 @@ const useStyles = makeStyles(theme => ({
         width: "60px",
         height: "90px",
         position: "absolute",
-        left: "39%",
+        left: "33%",
         top: "46%",
         transform: "translate(-50%, -50%)",
         [theme.breakpoints.down("md")]: {
@@ -35,7 +35,7 @@ const useStyles = makeStyles(theme => ({
         width: "68px",
         height: "90px",
         position: "absolute",
-        left: "59%",
+        left: "63%",
         top: "46%",
         transform: "translate(-50%, -50%)",
         [theme.breakpoints.down("md")]: {
@@ -63,11 +63,11 @@ const useStyles = makeStyles(theme => ({
     header: {
         display: "inline-block",
         width: "18%",
-        margin: "65px",
+        margin: "30px",
         [theme.breakpoints.down("lg")]: {
             display: "inline-block",
-            width: "30%",
-            margin: "20px",
+            width: "21%",
+            margin: "24px",
         },
         [theme.breakpoints.down("md")]: {
             display: "inline-block",
@@ -124,7 +124,7 @@ const Projects = props => {
     return (
         <>
             <Typography id="projects" variant="h3" align="center" style={{marginBottom: "1em", marginTop: matchesXS ? "4em" : ""}}>Projects</Typography>
-            <div className={classes.header} align="center" style={{marginLeft: matchesLG ? "" : "300px"}}>
+            <div className={classes.header} align="center" style={{marginLeft: matchesLG ? "" : "170px"}}>
                 <Typography variant="h6" >E-Commerce (React/Redux)</Typography>
                 <div className="items">
                     <div className="body">
