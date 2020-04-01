@@ -96,6 +96,7 @@ const useStyles = makeStyles(theme => ({
         color: "white",
         marginTop: "4em",
         marginLeft: "3.5em",
+        letterSpacing: "7px"
     }
 }));
 

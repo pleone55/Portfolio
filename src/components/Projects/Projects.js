@@ -8,11 +8,11 @@ import useMediaQuery from '@material-ui/core/useMediaQuery';
 import './Projects.scss';
 
 import ecomm from '../../assets/ecomm.jpg';
-import expense from '../../assets/expense.jpg';
+// import expense from '../../assets/expense.jpg';
 import contact from '../../assets/contact.png';
 import todo from '../../assets/todo.jpg';
 import javaicon from '../../assets/java-icon.png';
-import github from '../../assets/github.png';
+// import github from '../../assets/github.png';
 
 const useStyles = makeStyles(theme => ({
     githubIcon: {
@@ -67,7 +67,7 @@ const useStyles = makeStyles(theme => ({
         [theme.breakpoints.down("lg")]: {
             display: "inline-block",
             width: "30%",
-            margin: "20px"
+            margin: "20px",
         },
         [theme.breakpoints.down("md")]: {
             display: "inline-block",
@@ -86,44 +86,45 @@ const useStyles = makeStyles(theme => ({
             marginLeft: "18vw"
         }
     },
-    headerTwo: {
-        display: "inline-block",
-        width: "18%",
-        margin: "65px",
-        marginLeft: "28%",
-        [theme.breakpoints.down("lg")]: {
-            display: "inline-block",
-            width: "30%",
-            margin: "20px"
-        },
-        [theme.breakpoints.down("md")]: {
-            display: "inline-block",
-            width: "30%",
-            marginLeft: "12vw"
-        },
-        [theme.breakpoints.down("sm")]: {
-            display: "inline-block",
-            width: "30%",
-            marginLeft: "11vw"
-        },
-        [theme.breakpoints.down("xs")]: {
-            display: "block",
-            width: "60%",
-            marginTop: "5em",
-            marginLeft: "18vw"
-        }
-    }
+    // headerTwo: {
+    //     display: "inline-block",
+    //     width: "18%",
+    //     margin: "65px",
+    //     marginLeft: "28%",
+    //     [theme.breakpoints.down("lg")]: {
+    //         display: "inline-block",
+    //         width: "30%",
+    //         margin: "20px"
+    //     },
+    //     [theme.breakpoints.down("md")]: {
+    //         display: "inline-block",
+    //         width: "30%",
+    //         marginLeft: "12vw"
+    //     },
+    //     [theme.breakpoints.down("sm")]: {
+    //         display: "inline-block",
+    //         width: "30%",
+    //         marginLeft: "11vw"
+    //     },
+    //     [theme.breakpoints.down("xs")]: {
+    //         display: "block",
+    //         width: "60%",
+    //         marginTop: "5em",
+    //         marginLeft: "18vw"
+    //     }
+    // }
 }))
 
 const Projects = props => {
     const classes = useStyles();
     const theme = useTheme();
     const matchesXS = useMediaQuery(theme.breakpoints.down("xs"));
+    const matchesLG = useMediaQuery(theme.breakpoints.down("lg"));
 
     return (
         <>
             <Typography id="projects" variant="h3" align="center" style={{marginBottom: "1em", marginTop: matchesXS ? "4em" : ""}}>Projects</Typography>
-            <div className={classes.header} align="center">
+            <div className={classes.header} align="center" style={{marginLeft: matchesLG ? "" : "300px"}}>
                 <Typography variant="h6" >E-Commerce (React/Redux)</Typography>
                 <div className="items">
                     <div className="body">
@@ -136,7 +137,7 @@ const Projects = props => {
                     </div>
                 </div>
             </div>
-            <div className={classes.header} align="center">
+            {/* <div className={classes.header} align="center">
                 <Typography variant="h6">Expense Tracker (MERN)</Typography>
                 <div className="items">
                     <div className="body">
@@ -148,7 +149,7 @@ const Projects = props => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             <div className={classes.header} align="center">
                 <Typography variant="h6">Contact Manager (MERN)</Typography>
                 <div className="items">
@@ -169,13 +170,13 @@ const Projects = props => {
                         <div className="background-image" style={{backgroundImage: `url(${todo})`}}>
                             <div className={classes.opacityTransform}>
                                 <a className={classes.aTag} href="https://github.com/pleone55/To-Do-List"><GitHubIcon className={classes.githubIcon}/></a>
-                                <a className={classes.aTag} href="http://13.59.157.247/"><VisibilityIcon className={classes.eyeIcon} /></a>
+                                <a className={classes.aTag} href="http://52.53.179.247/"><VisibilityIcon className={classes.eyeIcon} /></a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div className={classes.headerTwo} align="center">
+            {/* <div className={classes.headerTwo} align="center" style={{marginLeft: matchesLG ? "150px" : ""}}>
                 <Typography variant="h6" >Github Finder (React)</Typography>
                 <div className="items">
                     <div className="body">
@@ -187,7 +188,7 @@ const Projects = props => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             <div className={classes.header} align="center">
                 <Typography variant="h6">Java Projects</Typography>
                 <div className="items">
