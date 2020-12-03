@@ -2,6 +2,8 @@
 
 This project is a portfolio displaying all my projects that I have worked on as a Full Stack Web Developer. Portfolio was created using material-ui as well as a mixture of Sass and CSS.
 
+Portfolio is deployed at http://54.153.125.248/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
