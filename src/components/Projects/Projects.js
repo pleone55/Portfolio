@@ -157,7 +157,7 @@ const Projects = props => {
                         <div className="background-image" style={{backgroundImage: `url(${contact})`}}>
                             <div className={classes.opacityTransform}>
                                 <a className={classes.aTag} href="https://github.com/pleone55/Contact-Manager"><GitHubIcon className={classes.githubIcon}/></a>
-                                <a className={classes.aTag} href="http://54.153.59.136/login"><VisibilityIcon className={classes.eyeIcon} /></a>
+                                <a className={classes.aTag} href="http://52.53.237.22"><VisibilityIcon className={classes.eyeIcon} /></a>
                             </div>
                         </div>
                     </div>
@@ -170,7 +170,7 @@ const Projects = props => {
                         <div className="background-image" style={{backgroundImage: `url(${todo})`}}>
                             <div className={classes.opacityTransform}>
                                 <a className={classes.aTag} href="https://github.com/pleone55/To-Do-List"><GitHubIcon className={classes.githubIcon}/></a>
-                                <a className={classes.aTag} href="http://52.53.179.247/"><VisibilityIcon className={classes.eyeIcon} /></a>
+                                <a className={classes.aTag} href="http://13.57.223.70"><VisibilityIcon className={classes.eyeIcon} /></a>
                             </div>
                         </div>
                     </div>
