@@ -108,8 +108,8 @@ const About = props => {
                                 problem-solving skills. Self-sufficient and team driven web developer looking to gain real world experience 
                                 in the industry and continue to develop the skills needed to be a well-rounded Full Stack developer.
                                 <br/><br/>
-                                Graduated from the Coding Dojo Bootcamp where I worked on two full stack languages, which include Python, Java and MERN Stack.
-                                Implementing projects that include CRUD operations as well as working with RESTful APIs.
+                                Graduated from the Coding Dojo Bootcamp where I worked on many projects in an array of stacks. Currently 
+                                working towards my Computer Science degree at Oregon State University.
                                 </Typography>
                             </Grid>
                         </Grid>
