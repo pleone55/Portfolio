@@ -100,16 +100,15 @@ const About = props => {
             <Typography variant="h3" align="center">About Me</Typography>
                 <Grid className={`fade-in-section ${isVisible ? 'is-visible' : ''}`} ref={domRef} container justify="flex-end" alignItems="center" direction="row">
                     <Grid sm item className={classes.aboutTextContainer}>
-                        <Typography variant="h3" align="left" >Full Stack Web Developer</Typography>
+                        <Typography variant="h3" align="left" >Software Developer</Typography>
                         <Grid container align="left" className={classes.paragraphContainer}>
                             <Grid item>
                                 <Typography variant="caption" align="center">
-                                Versatile, results-driven, and motivated Entry Level Web Developer demonstrating solid programming and 
+                                Versatile, results-driven, and motivated Software Developer demonstrating solid communication, programming and 
                                 problem-solving skills. Self-sufficient and team driven web developer looking to gain real world experience 
-                                in the industry and continue to develop the skills needed to be a well-rounded Full Stack developer.
+                                in the industry and continue to develop the skills needed to be a well-rounded developer.
                                 <br/><br/>
-                                Graduated from the Coding Dojo Bootcamp where I worked on many projects in an array of stacks. Currently 
-                                working towards my Computer Science degree at Oregon State University.
+                                Graduated from the Coding Dojo Bootcamp and earning my Computer Science degree at Oregon State University.
                                 </Typography>
                             </Grid>
                         </Grid>

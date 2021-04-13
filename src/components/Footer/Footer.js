@@ -42,7 +42,7 @@ const Footer = props => {
                                 Phone Number: 909-560-1086
                             </Grid>
                             <Grid item className={classes.link}>
-                                Email: p-leone@hotmail.com
+                                Email: pleone550@gmail.com
                             </Grid>
                         </Grid>
                     </Grid>

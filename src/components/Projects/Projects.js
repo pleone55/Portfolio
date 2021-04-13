@@ -8,11 +8,11 @@ import useMediaQuery from '@material-ui/core/useMediaQuery';
 import './Projects.scss';
 
 import ecomm from '../../assets/ecomm.jpg';
-// import expense from '../../assets/expense.jpg';
+import expense from '../../assets/expense.jpg';
 import contact from '../../assets/contact.png';
 import todo from '../../assets/todo.jpg';
 import javaicon from '../../assets/java-icon.png';
-// import github from '../../assets/github.png';
+import github from '../../assets/github.png';
 
 const useStyles = makeStyles(theme => ({
     githubIcon: {
@@ -86,33 +86,33 @@ const useStyles = makeStyles(theme => ({
             marginLeft: "18vw"
         }
     },
-    // headerTwo: {
-    //     display: "inline-block",
-    //     width: "18%",
-    //     margin: "65px",
-    //     marginLeft: "28%",
-    //     [theme.breakpoints.down("lg")]: {
-    //         display: "inline-block",
-    //         width: "30%",
-    //         margin: "20px"
-    //     },
-    //     [theme.breakpoints.down("md")]: {
-    //         display: "inline-block",
-    //         width: "30%",
-    //         marginLeft: "12vw"
-    //     },
-    //     [theme.breakpoints.down("sm")]: {
-    //         display: "inline-block",
-    //         width: "30%",
-    //         marginLeft: "11vw"
-    //     },
-    //     [theme.breakpoints.down("xs")]: {
-    //         display: "block",
-    //         width: "60%",
-    //         marginTop: "5em",
-    //         marginLeft: "18vw"
-    //     }
-    // }
+    headerTwo: {
+        display: "inline-block",
+        width: "18%",
+        margin: "65px",
+        marginLeft: "28%",
+        [theme.breakpoints.down("lg")]: {
+            display: "inline-block",
+            width: "30%",
+            margin: "20px"
+        },
+        [theme.breakpoints.down("md")]: {
+            display: "inline-block",
+            width: "30%",
+            marginLeft: "12vw"
+        },
+        [theme.breakpoints.down("sm")]: {
+            display: "inline-block",
+            width: "30%",
+            marginLeft: "11vw"
+        },
+        [theme.breakpoints.down("xs")]: {
+            display: "block",
+            width: "60%",
+            marginTop: "5em",
+            marginLeft: "18vw"
+        }
+    }
 }))
 
 const Projects = props => {
@@ -137,19 +137,19 @@ const Projects = props => {
                     </div>
                 </div>
             </div>
-            {/* <div className={classes.header} align="center">
-                <Typography variant="h6">Expense Tracker (MERN)</Typography>
+            <div className={classes.header} align="center">
+                <Typography variant="h6">Star Wars Database</Typography>
                 <div className="items">
                     <div className="body">
                         <div className="background-image" style={{backgroundImage: `url(${expense})`}}>
                             <div className={classes.opacityTransform}>
-                                <a className={classes.aTag} href="https://github.com/pleone55/Expense-Tracker"><GitHubIcon className={classes.githubIcon}/></a>
-                                <a className={classes.aTag} href="http://3.21.28.28/"><VisibilityIcon className={classes.eyeIcon} /></a>
+                                <a className={classes.aTag} href="https://github.com/pleone55/knoxLeone_CS340/tree/master"><GitHubIcon className={classes.githubIcon}/></a>
+                                <a className={classes.aTag} href="#!"><VisibilityIcon className={classes.eyeIcon} /></a>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div> */}
+            </div>
             <div className={classes.header} align="center">
                 <Typography variant="h6">Contact Manager (MERN)</Typography>
                 <div className="items">
@@ -176,19 +176,19 @@ const Projects = props => {
                     </div>
                 </div>
             </div>
-            {/* <div className={classes.headerTwo} align="center" style={{marginLeft: matchesLG ? "150px" : ""}}>
-                <Typography variant="h6" >Github Finder (React)</Typography>
+            <div className={classes.headerTwo} align="center" style={{marginLeft: matchesLG ? "150px" : ""}}>
+                <Typography variant="h6" >Person Generator</Typography>
                 <div className="items">
                     <div className="body">
                         <div className="background-image" style={{backgroundImage: `url(${github})`}}>
                             <div className={classes.opacityTransform}>
-                                <a className={classes.aTag} href="https://github.com/pleone55/Github-Finder"><GitHubIcon className={classes.githubIcon}/></a>
-                                <a className={classes.aTag} href="https://git-hub-finder.herokuapp.com/ "><VisibilityIcon className={classes.eyeIcon} /></a>
+                                <a className={classes.aTag} href="https://github.com/pleone55/Person-Generator"><GitHubIcon className={classes.githubIcon}/></a>
+                                <a className={classes.aTag} href="#! "><VisibilityIcon className={classes.eyeIcon} /></a>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div> */}
+            </div>
             <div className={classes.header} align="center">
                 <Typography variant="h6">Java Projects</Typography>
                 <div className="items">

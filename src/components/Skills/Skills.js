@@ -82,25 +82,34 @@ const Skills = props => {
                     <Grid className={classes.subContainer} container alignItems="center" style={{width: matchesMD ? "100%" : "60%", marginLeft: matchesMD ? "1vw" : "20vw"}}>
                         <Grid sm item className={classes.skillsContainer}>
                             <img src={frontend} alt="front-end" className={classes.imgContainer}/>
-                            <Typography variant="h6">Front End</Typography>
+                            <Typography variant="h6">Libraries & Styling</Typography>
+                            <span className={classes.languages}>React</span>
                             <span className={classes.languages}>CSS/Sass</span>
-                            <span className={classes.languages}>HTML</span>
-                            <span className={classes.languages}>Javascript</span>
-                            <span className={classes.languages}>React/Redux</span>
+                            <span className={classes.languages}>Material-UI</span>
+                            <span className={classes.languages}>Bootstrap</span>
                         </Grid>
                         <Grid sm item className={classes.skillsContainer}>
                             <img src={backend} alt="back-end" className={classes.imgTwoContainer}/>
-                            <Typography variant="h6">Back End</Typography>
+                            <Typography variant="h6">Languages</Typography>
+                            <span className={classes.languages}>JavaScript/Node.js</span>
                             <span className={classes.languages}>Python</span>
                             <span className={classes.languages}>Java</span>
+                            <span className={classes.languages}>Perl</span>
+                        </Grid>
+                        <Grid sm item className={classes.skillsContainer}>
+                            <img src={backend} alt="back-end" className={classes.imgTwoContainer}/>
+                            <Typography variant="h6">Frameworks</Typography>
                             <span className={classes.languages}>Express</span>
-                            <span className={classes.languages}>NodeJS</span>
+                            <span className={classes.languages}>Tkinter</span>
+                            <span className={classes.languages}>Django</span>
+                            <span className={classes.languages}>Flask</span>
+                            <span className={classes.languages}>SpringBoot</span>
                         </Grid>
                         <Grid sm item className={classes.skillsContainer}>
                             <img src={database} alt="database" className={classes.imgThreeContainer}/>
                             <Typography variant="h6">Database</Typography>
                             <span className={classes.languages}>MySQL</span>
-                            <span className={classes.languages}>Django</span>
+                            <span className={classes.languages}>MariaDB</span>
                             <span className={classes.languages}>MongoDB</span>
                         </Grid>
                         <Grid sm item className={classes.skillsContainer}>
@@ -108,6 +117,7 @@ const Skills = props => {
                             <Typography variant="h6">Deployment</Typography>
                             <span className={classes.languages}>AWS</span>
                             <span className={classes.languages}>Heroku</span>
+                            <span className={classes.languages}>Netlify</span>
                         </Grid>
                     </Grid>
                 </Grid>
